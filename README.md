@@ -2,7 +2,7 @@
 
 ## Compiling
 
-Windows: CL.EXE flames\_pub.c (start a Visual Studio Command Propmt)
+Windows: CL.EXE flames\_pub.c (start a Visual Studio Command Prompt)
 
 Linux/Unix: gcc -o flames\_pub flames\_pub.c
 
@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/fireeye/sunburst_countermeasures/main/indicato
 https://github.com/bambenek/research/blob/main/sunburst/uniq-hostnames.txt
 ```
 
-3. Execute:
+3. Execute in the same directory as datasets:
 
 Windows: extract\_uids.bat
 
