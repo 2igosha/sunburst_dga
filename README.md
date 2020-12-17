@@ -14,7 +14,7 @@ Linux/Unix: gcc -o flames\_pub flames\_pub.c
 
 ```
 https://raw.githubusercontent.com/fireeye/sunburst_countermeasures/main/indicator_release/Indicator_Release_NBIs.csv
-https://github.com/bambenek/research/blob/main/sunburst/uniq-hostnames.txt
+https://raw.githubusercontent.com/bambenek/research/main/sunburst/uniq-hostnames.txt
 ```
 
 3. Execute in the same directory as datasets:
