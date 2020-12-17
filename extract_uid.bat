@@ -1,6 +1,6 @@
 REM Required files:
 REM https://raw.githubusercontent.com/fireeye/sunburst_countermeasures/main/indicator_release/Indicator_Release_NBIs.csv
-REM https://github.com/bambenek/research/blob/main/sunburst/uniq-hostnames.txt
+REM https://raw.githubusercontent.com/bambenek/research/main/sunburst/uniq-hostnames.txt
 @echo off
 REM Extract the domain names
 del %TEMP%\domain_names_f.txt 2>NUL
