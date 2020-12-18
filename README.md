@@ -4,7 +4,7 @@
 
 Windows: CL.EXE flames\_pub.c (start a Visual Studio Command Prompt)
 
-Linux/Unix: gcc -o flames\_pub flames\_pub.c
+Linux/Unix: gcc -std=c99 -o flames\_pub flames\_pub.c
 
 ## Match the domain requests published by FireEye with target names
 
