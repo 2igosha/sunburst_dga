@@ -29,12 +29,12 @@ fi
 
 # Get full list of strings.
 $mydir/flames_pub < uniq-hostnames.txt | grep domain  > $flames_all_file
-echo "- Full generated list is $(cat uniq-hostnames.txt | wc -l) lines"
+>&2 echo "- Full generated list is $(cat uniq-hostnames.txt | wc -l) lines"
 
-echo "- Strings that can be reassembled:"
+>&2 echo "- Strings that can be reassembled:"
 # Display string fragments in original order.
 for uid in $(cut -d , -f 3 Indicator_Release_NBIs.csv | $mydir/flames_pub | grep NextString | cut -d ' ' -f 4); do
-    grep $uid $flames_all_file | sort -k 6 -n;
+    grep $uid $flames_all_file | sort -k 6 -n
 done
 echo ""
 
