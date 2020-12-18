@@ -5,6 +5,7 @@ Details on Securelist: [https://securelist.com/sunburst-connecting-the-dots-in-t
 ## Compiling
 
 Windows: CL.EXE flames\_pub.c (start a Visual Studio Command Prompt)
+ *binary for Windows included*
 
 Linux/Unix: gcc -o flames\_pub flames\_pub.c
 
