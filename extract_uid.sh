@@ -29,7 +29,7 @@ fi
 
 # Get full list of strings.
 $mydir/flames_pub < uniq-hostnames.txt | grep domain  > $flames_all_file
->&2 echo "- Full generated list is $(cat uniq-hostnames.txt | wc -l) lines"
+>&2 echo "- Full list output to ${flames_all_file} - $(cat uniq-hostnames.txt | wc -l) lines"
 
 >&2 echo "- Strings that can be reassembled:"
 # Display string fragments in original order.
