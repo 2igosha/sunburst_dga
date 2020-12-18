@@ -1,5 +1,7 @@
 # SUNBURST DGA decoder
 
+Details on Securelist: [https://securelist.com/sunburst-connecting-the-dots-in-the-dns-requests/99862/](https://securelist.com/sunburst-connecting-the-dots-in-the-dns-requests/99862/)
+
 ## Compiling
 
 Windows: CL.EXE flames\_pub.c (start a Visual Studio Command Prompt)
